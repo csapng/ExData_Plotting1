@@ -1,14 +1,17 @@
 Project 1 ExData Plotting
 
 ## Files:
-* Plot1.R:  Run this file to run the code; Plot1.R generates the  four Png files.  Plot1.R also calls Plot_source.R to extract the required data.
-* Plot_source.R:  Don't run this file - it is called by Plot1.R so there is no need to run this as a separate file.  Plot_source.R extracts the data from the repository creating the working file required by Plot1.R.  Plot_source.R will access the repository directly so no downloaded file is required to run the program.  Plot_source.R does not download a file to the computer, instead using only memory, so no source file is left on the hard drive.
+* plot1.R:  Produces plot1.png.  Note that data extract is done in sourced file "Plot_source.R"
+* plot2.R:  Produces plot2.png.  Note that data extract is done in sourced file "Plot_source.R"
+* plot3.R:  Produces plot3.png.  Note that data extract is done in sourced file "Plot_source.R"
+* plot4.R:  Produces plot4.png   Note that data extract is done in sourced file "Plot_source.R"
+* Plot_source.R:  Don't run this file - it is called by Plot1.R so there is no need to run this as a separate file.  Plot_source.R extracts the data from the repository creating the working file required by Plot1.R.  Plot_source.R will access the repository directly so no downloaded file is required to run the program.  Plot_source.R does not download a file to the computer, instead using only memory, so no source file is left on the hard drive.  Technically this code should have been included in plot1.R through plot4.R but that seems a bit wasteful, so it is broken out separately here.
 * Plot1.png:  Output of first plot (histogram)
 * Plot2.png:  Output of second plot (line chart of global active power)
 * Plot3.png:  Output of third plot (line plot of sub-metering)
 * Plot4.png:  Output of fourth plot (4-up plot)
 
-## program:  Plot1.R:
+## program:  plot1-4.R:
 * sources "Plot_source.R" to extract data from repository ("Electric" data.table)
 * creates "Plot1.png" using "hist()" command on "Electric" data.table.  "plot" command sets titles and color via "xlab", "ylab", and "col"
 * creates "Plot2.png" using "plot()" command on "Electric".  "plot" sets titles, line style via "xlab", "ylab", and "type" commands
