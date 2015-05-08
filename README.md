@@ -1,7 +1,7 @@
 ## Introduction
 
 ### Files:
-* Plot1.R:  Run this file to run the code; Plot1.R generates the  four Png files.  Plot1.R also calls Plot_source.R to extract the required data.
+* Plots1.R:  Run this file to run the code; Plot1.R generates the  four Png files.  Plot1.R also calls Plot_source.R to extract the required data.
 * Plot_source.R:  Don't run this file - it is called by Plot1.R so there is no need to run this as a separate file.  Plot_source.R extracts the data from the repository creating the working file required by Plot1.R.  Plot_source.R will access the repository directly so no downloaded file is required to run the program.  Plot_source.R does not download a file to the computer, instead using only memory, so no source file is left on the hard drive.
 * Plot1.png:  Output of first plot (histogram)
 * Plot2.png:  Output of second plot (line chart of global active power)
