@@ -1,11 +1,10 @@
 ## Introduction
 
 ### Files:
-* plot1.R:  Produces plot1.png.  Note that data extract is done in sourced file "Plot_source.R"
-* plot2.R:  Produces plot2.png.  Note that data extract is done in sourced file "Plot_source.R"
-* plot3.R:  Produces plot3.png.  Note that data extract is done in sourced file "Plot_source.R"
-* plot4.R:  Produces plot4.png   Note that data extract is done in sourced file "Plot_source.R"
-* Plot_source.R:  Don't run this file - it is called by Plot1.R so there is no need to run this as a separate file.  Plot_source.R extracts the data from the repository creating the working file required by Plot1.R.  Plot_source.R will access the repository directly so no downloaded file is required to run the program.  Plot_source.R does not download a file to the computer, instead using only memory, so no source file is left on the hard drive.  Technically this code should have been included in plot1.R through plot4.R but that seems a bit wasteful, so it is broken out separately here.
+* plot1.R:  Produces plot1.png.  Pulls data from URL source, creates POSIX date/time field.
+* plot2.R:  Produces plot2.png.  Pulls data from URL source, creates POSIX date/time field.
+* plot3.R:  Produces plot3.png.  Pulls data from URL source, creates POSIX date/time field.
+* plot4.R:  Produces plot4.png   Pulls data from URL source, creates POSIX date/time field.
 * Plot1.png:  Output of first plot (histogram)
 * Plot2.png:  Output of second plot (line chart of global active power)
 * Plot3.png:  Output of third plot (line plot of sub-metering)
